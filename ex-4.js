@@ -13,3 +13,13 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+// Async / Await Convention
+async function asynchronousFunction() {
+  const johnProfile = await getJohnProfile();
+  console.log(johnProfile);
+}
+asynchronousFunction()
+
+// Await xxx mistake but same ans.
+// const johnProfile = await getJohnProfile();
+// console.log(johnProfile);
