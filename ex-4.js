@@ -1,4 +1,10 @@
 // Exercise #4
+/*{
+  name: 'John',
+  age: 20,
+  hobbies: [ 'Coding', 'Football' ]
+}
+*/
 let getJohnProfile = () => {
   return new Promise(function (resolve) {
     setTimeout(
@@ -13,3 +19,5 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+
+console.log(await getJohnProfile())
